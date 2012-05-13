@@ -7,12 +7,13 @@ set ignorecase
 set runtimepath+=/usr/local/share/lilypond/2.14.2/vim
 set nobackup noswapfile
 set cpoptions-=u
-set backspace-=start
 set history=100
 set ul=1000
 set smc=0
 set guioptions+=a guioptions-=r guioptions-=T
 set guifont=Monaco:h12
+set backspace=2
+color zenburn
 "set guifont=Inconsolata:h14
 if $TERM == ""
     " Only set if we're not running in an interactive shell.
@@ -33,7 +34,7 @@ filetype indent on
 syntax enable
 
 if v:version >= 703
-    color torte 
+"    color torte 
 endif " v:version >= 703
 
 " Make it possible to see edges between editor windows.
@@ -58,4 +59,3 @@ endif " has("autocmd")
 let php_sql_query=1
 let php_minlines=1200
 let php_htmlInStrings=1
-
