@@ -13,7 +13,9 @@ set smc=0
 set guioptions+=a guioptions-=r guioptions-=T
 set guifont=Monaco:h12
 set backspace=2
-color zenburn
+set nosi noai
+set pastetoggle=
+color torte
 "set guifont=Inconsolata:h14
 if $TERM == ""
     " Only set if we're not running in an interactive shell.
