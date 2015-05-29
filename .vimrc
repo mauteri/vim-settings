@@ -413,3 +413,5 @@ au BufRead,BufNewFile /Users/mauteri/Documents/basenet-environment/* setl expand
 
 " Settings for Titanium Studio environment
 au BufRead,BufNewFile /Users/mauteri/Documents/Titanium_Studio_Workspace/* setl expandtab tabstop=4 shiftwidth=4
+
+" autocmd vimenter * NERDTree
