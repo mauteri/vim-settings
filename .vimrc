@@ -54,6 +54,8 @@ au BufNewFile,BufRead *.twig set filetype=html
 " LESS
 au BufNewFile,BufRead *.less set filetype=css
 
+" This got messed up...
+command E Explore
 
 " Set to auto read when a file is changed from the outside
 set autoread
